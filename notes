@@ -1,0 +1,8 @@
+Nested Routes
+
+En el caso de que tengamos que generar una navegacion dentro de un "recurso" (Un recurso podria ser algo que se carga en la db para despues navegarlo en la app, en este ejemplo seria Event, pero en el wingspan scorer serian los match por ejemplo) para no repetir codigo sobretodo y ademas para tener todo mas centralizado, se genera un "Layout".
+
+El "Layout" contiene la navegacion de cada recurso y ademas la logica para hacer los API calls.
+
+NOTA: App.vue es el BASE LAYOUT
+
